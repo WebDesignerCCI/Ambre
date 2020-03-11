@@ -1,0 +1,395 @@
+.photodeprofil{
+    height: 130px;
+    margin: 0;
+    
+}
+
+
+
+header{
+    background-color:rgba(128, 128, 128, 0.26); 
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 200px;
+    border-radius: 30px;
+  background-image:linear-gradient(#e66465, #9198e5);
+  float: left;
+  
+  
+   
+ }
+
+ .superposition{
+    background-color: rgb(255, 255, 255); 
+    padding: 10px;
+    width: 120%;
+    z-index: 1;
+    list-style-position: inside;
+    border-radius: 10px 100px / 120px;
+    font-family: 'marvel';
+    font-size: x-large;
+    color: #6a75d8;
+  
+
+
+   }
+
+
+
+  .photodeprofil{
+    border-radius: 10px 100px / 120px;
+    background-color: honeydew;
+  }
+
+
+body{
+    background-color:#9198e5;
+    height: 800px;
+}
+
+h1{
+    font-size: 71px;
+  
+    font-family: 'marvel';
+    color: #e66465;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.356);
+ border-radius: 30px;
+ width: 461px;
+text-align: center;
+text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+display: flex;
+justify-content: center;
+
+height: 125px;
+padding-top: 3px;
+padding-bottom: 0px;
+height: 43%;
+
+
+
+}
+
+a{
+    color: white;
+    display: flex;
+    justify-content: center;
+margin-top: 20px;
+margin-left: 5px;
+   font-family: 'marvel';
+
+    
+}
+
+.monnomprenom{
+    display: inline-flex;
+    
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-top: 3px;
+    font-family: 'marvel';
+}
+ li{
+     display: inline-flex;
+     position: relative;
+     left: -100px;
+     top: 178px;
+     padding-bottom: 5%;
+     margin-top: 30%;
+ }
+
+p{
+   color: white;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 20%;
+   padding-left: 10%;
+   margin-left: 180px;
+     background-color: rgba(255, 255, 255, 0.404);
+    border-radius: 30px;
+font-family: 'Trade Winds';
+font-size: 15px;
+margin-top: 485px;
+
+   }
+
+
+.montexte{
+   
+    margin-bottom: 50px;
+  
+}
+
+.meslogos{
+    width: 10px;
+    height: 10px;
+   display: flex;
+   justify-content: space-around;
+   size: 10px;
+   position: absolute;
+   margin-left: 200px;
+   
+}
+
+
+li{
+    width: 200px;
+}
+.logo_contact{
+width: 20%;
+border-radius: 30%;
+background-color: white;
+padding: 5%;
+
+}
+
+
+.logo_experiences{
+    width: 20%;
+    border-radius: 30%;
+background-color: white;
+padding: 5%;
+}
+
+.logo_book{
+    width: 20%;
+    border-radius: 30%;
+background-color: white;
+padding: 5%;
+}
+
+.logo_formation{
+    width: 20%;
+    border-radius: 30%;
+background-color: white;
+padding: 5%;
+}
+
+.clear{
+clear: both;
+}
+
+
+       .h2{
+           font-size: x-small;
+     
+           
+       }
+
+       b{
+           font-size: 40px;
+           font-family: 'marvel';
+           color: #9198e5;
+           display: flex;
+           justify-content: left;
+         margin-bottom: 50px;
+         padding-left: 10px;
+       }
+
+       
+ .mecontacter{
+    width: 493px;
+ }
+
+
+
+ 
+
+ 
+ .icone_mail{
+    background-color: white;
+    border-radius: 25%;
+   
+    padding: 45px;
+    
+width: 100px;
+height: 100px;
+
+ }
+
+ .icone_call{
+    background-color: white;
+    border-radius: 25%;
+   
+    padding: 45px;
+    
+width: 100px;
+height: 100px;
+ }
+
+ 
+ .iconefb{
+    background-color: white;
+    border-radius: 25%;
+   
+    padding: 45px;
+   
+width: 100px;
+height: 100px;
+ }
+
+     .iconeinsta{
+        background-color: white;
+        border-radius: 25%;
+       
+        padding: 45px;
+       
+    width: 100px;
+    height: 100px;
+     }
+
+     .liens_directs_contact{
+         display: flex;
+         justify-content: space-around;
+         background-color:rgba(255, 255, 255, 0.356);
+         border-radius: 30px;
+         padding: 4%;
+         animation-duration: 3s;
+         animation-name: slidein;
+     }
+
+     @keyframes slidein {
+        from {
+          margin-right: 50%;
+          width: 150%; 
+        }
+      }
+
+     .iconemaison{
+        background-color: white;
+        border-radius: 25%;
+       
+        padding: 50px;
+       
+    width: 100px;
+    height: 100px;  
+     }
+
+     .iconecouleur{
+        background-color: rgb(255, 255, 255);
+        border-radius:30px;
+        padding: 38px;
+        padding-bottom: 500px;  
+        width: 100px;
+    height: 100px; 
+    margin:10px;
+    
+    }
+    
+    .mes_experiences{
+        display: flex;
+        justify-content: space-around;
+        background-color:rgba(255, 255, 255, 0.356);
+        border-radius: 30px;
+        padding: 4%; 
+        animation-duration: 3s;
+         animation-name: slidein;     }
+     
+
+     @keyframes slidein {
+        from {
+          margin-right: 50%;
+          width: 150%; 
+        }
+      
+        
+    }
+    
+.trait{
+    background-color:#e66465;
+    width: 154px;
+    height: 4px;
+    margin-top: -489px;
+   position: absolute;
+
+margin-left: 20px;
+}
+
+.montexte{
+    
+    margin-top: -448px;
+     position: absolute;
+  font-family: 'marvel';
+  margin-left: 20px;  
+  font-size: 12px;
+}
+
+
+   .mairieterville{
+       font-family: 'marvel';
+       margin-top: -474px;
+   }
+
+   .mairiethionville{
+    font-family: 'marvel'; 
+    margin-top: -474px;
+   }
+
+   .cdpublicite{
+    font-family: 'marvel';
+    margin-top: -474px;
+   }
+
+   
+   
+   .photosvertical{
+       border-radius: 20px;
+       margin-left: 79px;
+       flex-direction: row;
+   }
+
+   .photohorizontal{
+    border-radius: 20px;
+   
+}
+
+.premiereligne{
+    margin-bottom: 50px;
+}
+   
+
+.deuxiemeligne{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.troisiemeligne{
+    margin-bottom: 50px; 
+}
+
+
+.quatriemeligne{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+.mesphotos{
+    background-color: rgba(255, 255, 255, 0.377);
+    border-radius: 20px;
+    padding: 30px;
+}
+.premiereligne img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.premiereligne img:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+a{
+    z-index: 2;
+}
+.cinquiemeligne{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;
+}
